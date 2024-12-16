@@ -2,7 +2,7 @@
 
 /*Variables de CSS*/
 :root{
---color-primario: #F5F7F8;
+--color-primario: #C9C9C9;
 --color-secundario: #185519;
 --color-terceario: #E8B86D;
 --color-hover:#272727;
@@ -60,19 +60,39 @@ ol {
 
 }
 
+.header__menu{
+    
+    display: flex;
+    gap: 65px;
+    padding: 5px 0px  5px 119px;
+
+}
+
+.header__menu__link{
+
+   font-family: var(--fuente-montserrat);
+   font-size: 20px;
+   font-weight: 600;
+   color: var(--color-secundario); 
+   text-decoration: none;
+
+
+}
+
 
 
 body{
     background-color: var(--color-primario);
     box-sizing: border-box;
-
+    
 }
 
 .inicio{
 
     display: flex;
     flex-direction: column;
-    gap: 112px;
+    gap: 60px;
+   /* gap: 112px;*/
     
 }
 
@@ -227,6 +247,76 @@ padding-top: 72px;
 
 }
 
+.inicio__listas {
 
+    padding: 0px 119px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+
+}
+
+.inicio__listas__ventajas{
+
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+
+}
+
+.inicio__listas__retos{
+
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+
+}
+
+.inicio__tendencias{
+
+    padding: 0px 119px 168px 119px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.inicio__tendencias__info{
+
+    display: flex;
+    gap: 56px;
+
+}
+
+#inicio__tendencias__info__ol{
+
+    padding-top: 105px;
+
+}
+
+#imagen5{
+
+    width: 576px;
+    height: 623px;
+
+}
+
+.footer{
+
+    background-color: var(--color-secundario);
+    width: auto;  
+    display: flex;
+    justify-content: center; 
+
+}
+
+#footer__p {
+
+    color: #FFFFFF;
+    font-family: var(--fuente-montserrat);
+    font-size: 20px;
+    font-weight: 600;
+
+}
 
 
